@@ -1,0 +1,185 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: #F26B4A;
+    height: 100px;
+    padding: 0 60px;
+}
+
+.HeaderMenu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+header button {
+    background-color: #169398;
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    border: none;
+    margin: 0 10px 0 0;
+    padding: 0;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.LogOut {
+    margin-left: auto;
+}
+
+.Prof a{
+    font-size: 19px;
+}
+
+header button a{
+    color: #fff;
+}
+
+header a {
+    color: #000;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+}
+
+.MonthSwitchingArea {
+    display: flex;
+}
+
+.MonthSchedule {
+    display: flex;
+}
+
+.MonthSchedule p {
+    font-size: 30px;
+}
+
+.MonthBtn {
+    font-size: 45px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.ClassDisplay {
+    background-color: #89E5F5;
+    color: #fff;
+    width: 180px;
+    height: 40px;
+    border: solid 1px lightgray;
+    margin: 30px 0 0 20px;
+    padding: 0;
+    border-radius: 15px;
+}
+
+.ClassDisplay p {
+    margin: 0;
+    text-align: center;
+    line-height: 45px;
+    font-size: 25px;
+}
+
+.Container {
+    display: flex;
+}
+
+.ClassesMenu {
+    display: flex;
+    flex-direction: column;
+}
+
+.Classes {
+    display: flex;
+    flex-direction: column;
+}
+
+.Classes button{
+    width: 100px;
+    height: 25px;
+    border: solid 1px lightgray;
+    border-radius: 9999px;
+    margin-bottom: 20px;
+    margin: 0 20px 20px;
+}
+
+.Classes button a {
+    color: #fff;
+    font-size: 13px;
+}
+
+.Classes button.group-1 {
+    background-color: #89E5F5;
+}
+
+.Classes button.group-2 {
+    background-color: #89E5F5;
+
+}
+.Classes button.group-3 {
+    background-color: #77E5D4;
+}
+
+.Classes button.group-4 {
+    background-color: #94D058;
+}
+
+.Curriculums {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.CurriculumItems {
+    border: solid 1px;
+    width: 300px;
+    margin: 0 20px 20px 0;
+    padding: 10px;
+}
+
+
+.CurriculumThumbnail img{
+    width: 100%;
+}
+
+.CurriculumTitle h1{
+    font-size: 100%;
+}
+
+.CurriculumDeliveryTimes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    line-height: 1px;
+}
+
+.CurriculumDeliveryTimes p{
+    line-height: 1px;
+    margin-right: 5px;
+}
+
+
+.slide-items {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}
+.slide-items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.slick-dots li button:before {
+    font-size: 18px;
+    top: 6px;
+}
